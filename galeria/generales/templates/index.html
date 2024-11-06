@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte - Inicio</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f7f1e3;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #3a3a8c;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        /* Gallery Section */
+        section.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 20px;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .art-piece {
+            width: 200px;
+            height: 300px;
+            background-color: #e1d5d5;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            color: #444;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nuestra Galería de Arte</h1>
+        <p class="subtitle">Explora nuestras exposiciones y descubre el arte que inspira.</p>
+    </header>
+
+    <section class="gallery">
+        <div class="art-piece">Obra 1</div>
+        <div class="art-piece">Obra 2</div>
+        <div class="art-piece">Obra 3</div>
+        <div class="art-piece">Obra 4</div>
+        <div class="art-piece">Obra 5</div>
+        <div class="art-piece">Obra 6</div>
+    </section>
+
+    <footer>
+        &copy; 2024 Galería de Arte. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
